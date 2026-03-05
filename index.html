@@ -170,7 +170,12 @@
       width:100%;
       height:100%;
       object-fit: cover;
-      object-position: center;
+
+      /* FIX: лицо в круге */
+      object-position: 50% 22%;
+      transform: scale(1.06);
+      transform-origin: center top;
+
       display:block;
     }
 
@@ -451,7 +456,7 @@
 
           <div class="hero-img">
             <!-- фото / схема -->
-            <img src="./main_picture.png" alt="Ким Галина Элиотаевна">
+            <img src="./main_picture.png?v=2" alt="Ким Галина Элиотаевна">
           </div>
 
           <div class="divider"></div>
